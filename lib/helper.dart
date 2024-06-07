@@ -6,3 +6,7 @@ void console(List<dynamic> arguments) {
   //   print(arguments);
   // }
 }
+
+int count(int a, int b) {
+  return a + b;
+}
