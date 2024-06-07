@@ -1,0 +1,20 @@
+{
+  "name": "cli",
+  "version": "1.0.0",
+  "description": "A sample command-line application with an entrypoint in `bin/`, library code in `lib/`, and example unit test in `test/`.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "npm run watch",
+    "watch": "nodemon --exec \"dart\" bin/cli.dart"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}

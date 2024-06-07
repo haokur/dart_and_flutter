@@ -1,0 +1,20 @@
+{
+    "ignore": [
+        "dist",
+        ".git",
+        ".svn",
+        ".dart_toool/**"
+    ],
+    "verbose": true,
+    "env": {
+        "NODE_ENV": "development"
+    },
+    "watch": [
+        "./bin/*.dart",
+        "./lib/*.dart"
+    ],
+    "quiet": true,
+    "events": {
+        "restart": "bash .sh/nodemon_watch.sh"
+    }
+}
