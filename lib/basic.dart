@@ -199,8 +199,8 @@ void runClass() {
 
 // 复杂数据类型
 void runComplex() {
-  // runList();
-  // runSet();
-  // runMap();
+  runList();
+  runSet();
+  runMap();
   runClass();
 }
