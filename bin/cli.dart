@@ -1,6 +1,6 @@
-import 'package:cli/cli.dart' as cli;
+import "package:cli/basic.dart" as basic;
 
 void main(List<String> arguments) {
-  print('Hello world3: ${cli.calculate()}!');
-  print("Hello count: ${cli.add(1, 2)}");
+  basic.runBasic();
+  basic.runComplex();
 }
